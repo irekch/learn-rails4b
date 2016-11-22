@@ -18,7 +18,6 @@ gem 'jbuilder', '~> 2.0'
 #gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
   gem 'spring'
 end
 # learn rails gems
@@ -36,6 +35,7 @@ group :development do
   gem 'quiet_assets'  # suppresses distractin messages in the log
   gem 'rails_layout'  # generates files for an application layout
   gem 'sqlite3'
+  gem 'web-console', '~> 2.0'
 end
 group :production do
   gem 'pg'
